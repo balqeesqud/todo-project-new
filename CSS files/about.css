@@ -1,0 +1,180 @@
+.header{
+  height: 55px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(226, 224, 224);
+  color: black;
+  width: 100%;
+  margin-bottom: 250px;
+ 
+}
+ 
+ .middle-section:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.right-section:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo{
+height: 50px;
+width: 50px;
+margin-left: 5px;
+margin-top: 10px;
+background-color: white;
+border-radius: 25px;
+}
+
+
+.middle-section{
+text-decoration: none;
+margin-left: 500px;
+
+}
+
+.right-section{
+text-decoration: none;
+margin-left: 200px;
+text-decoration: none;
+}
+
+.name{
+  vertical-align: middle;
+  margin-top: 100px;
+margin-left: 710px;
+margin-right: 350px;
+text-align: center;
+font-size: 40px;
+color: red;
+padding-left: 5px;
+padding-right: 5px;
+  }
+
+  .profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  }
+
+
+.profile-picture{
+ 
+  
+  height: 200px;
+  border-radius: 100px;
+
+  } 
+
+  p{
+    width: 500px;
+    border: 1px solid black;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    margin-left: 220px;
+    margin-bottom: 50px;
+    
+  }
+
+ 
+.container{
+  
+  padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: #E3F2FD;
+  } 
+
+h3{
+  font-size: 30px;
+  color: rgb(143, 41, 41);
+  margin-left: 600px;
+  margin-bottom: 70px;
+ }
+
+
+label {
+  width: 200px;
+	margin-left: 50px; 
+
+}
+
+
+input[type=text],input[type=email], textarea {
+  width: 500px;
+  padding: 7px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 0;
+  
+ 
+ 
+}
+
+form{
+display: flex;
+flex-direction: column;
+
+}
+
+.first-label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  input[type=submit] {
+    background: rgb(209, 128, 209);
+    margin: 0 auto;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  } 
+ 
+  .center {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+   
+      
+    
+
+    .footer{
+     height: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items: center;
+      background-color: lightgray;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      padding-bottom: 20px;
+    }
+  
+
+
+
